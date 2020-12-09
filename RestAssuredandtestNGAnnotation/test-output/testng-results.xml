@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7574" started-at="2020-12-09T04:34:14Z" finished-at="2020-12-09T04:34:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7574" started-at="2020-12-09T04:34:14Z" finished-at="2020-12-09T04:34:22Z">
+      <class name="step.StepDefi">
+        <test-method status="PASS" signature="api_for_foreign_exchange()[pri:0, instance:step.StepDefi@3498ed]" name="api_for_foreign_exchange" duration-ms="1203" started-at="2020-12-09T10:04:14Z" finished-at="2020-12-09T10:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- api_for_foreign_exchange -->
+        <test-method status="PASS" signature="posted_with_correct_information(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:step.StepDefi@3498ed]" name="posted_with_correct_information" duration-ms="5218" started-at="2020-12-09T10:04:16Z" data-provider="Date" finished-at="2020-12-09T10:04:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[09]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posted_with_correct_information -->
+        <test-method status="PASS" signature="posted_with_correct_information(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:step.StepDefi@3498ed]" name="posted_with_correct_information" duration-ms="1063" started-at="2020-12-09T10:04:21Z" data-provider="Date" finished-at="2020-12-09T10:04:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2019]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posted_with_correct_information -->
+        <test-method status="PASS" signature="validate_positive_response_code_recieved()[pri:0, instance:step.StepDefi@3498ed]" name="validate_positive_response_code_recieved" duration-ms="43" started-at="2020-12-09T10:04:22Z" finished-at="2020-12-09T10:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_positive_response_code_recieved -->
+      </class> <!-- step.StepDefi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
